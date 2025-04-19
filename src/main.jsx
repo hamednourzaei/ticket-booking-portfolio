@@ -5,7 +5,7 @@ import App from "./Component/App/App";
 import store from "./Component/redux/store";  // آدرس استور شما
 import "./index.css"
 const root = ReactDOM.createRoot(document.getElementById("root")); // استفاده از createRoot
-
+ 
 root.render(
   <React.StrictMode>
     <Provider store={store}>
